@@ -6,7 +6,7 @@ The software consists of one line of code that prints "Hello World."
 
 This was to get me affiliated with Github and with uploading videos and submitting assignments.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/iGpk9Aknkc4)
 
 # Development Environment
 
