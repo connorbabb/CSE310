@@ -18,7 +18,7 @@ struct Movie {
 }
 
 fn main() {
-    println!("Welcome to the database management program.");
+    println!("Welcome to the Movie Database Management program.");
 
     let mut input_num = String::new();
 
