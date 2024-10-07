@@ -1,4 +1,4 @@
-// Importing modules to read from a csv
+// Importing modules to read from a csv.
 use std::fs::File;
 use std::io::{self, BufReader};
 use std::error::Error;
