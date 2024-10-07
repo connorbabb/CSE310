@@ -51,8 +51,8 @@ fn main() {
 
             // Run search movie to find result
             match search_movie("movies.csv", title) {
-                Ok(Some(movie)) => println!("Found movie: {:?}", movie),
-                Ok(None) => println!("No movie found with title '{}'", title),
+                Ok(Some(movie)) => println!(),
+                Ok(None) => println!(),
                 Err(e) => println!("Error: {}", e),
             }
         } else if input_num.trim() == "3" {
@@ -88,6 +88,7 @@ fn print_all(file_name: &str) -> Result<(), Box<dyn Error>> {
 fn search_movie(file_name: &str, title: &str) -> Result<Option<Movie>, Box<dyn Error>> {
     match search_movie_by_title(file_name, title) {
         Ok(Some(movie)) => {
+            println!();
             println!("Film: {}", movie.film);
             println!("Genre: {}", movie.genre);
             println!("Lead Studio: {}", movie.lead_studio);
